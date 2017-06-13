@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>FYPopoutView.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>A6310E051EEFE93F00A91E0A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A6310E1E1EEFE93F00A91E0A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A6310E291EEFE93F00A91E0A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
