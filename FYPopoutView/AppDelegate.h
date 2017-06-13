@@ -1,6 +1,6 @@
 //
 //  AppDelegate.h
-//  FYPopoutView
+//  FYPopView
 //
 //  Created by 樊杨 on 2017/6/13.
 //  Copyright © 2017年 YHCRT.FY. All rights reserved.

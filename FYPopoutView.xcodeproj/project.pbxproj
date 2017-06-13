@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		A6310E0B1EEFE93F00A91E0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6310E0A1EEFE93F00A91E0A /* main.m */; };
-		A6310E0E1EEFE93F00A91E0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6310E0D1EEFE93F00A91E0A /* AppDelegate.m */; };
-		A6310E111EEFE93F00A91E0A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6310E101EEFE93F00A91E0A /* ViewController.m */; };
-		A6310E141EEFE93F00A91E0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6310E121EEFE93F00A91E0A /* Main.storyboard */; };
 		A6310E161EEFE93F00A91E0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6310E151EEFE93F00A91E0A /* Assets.xcassets */; };
 		A6310E191EEFE93F00A91E0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6310E171EEFE93F00A91E0A /* LaunchScreen.storyboard */; };
 		A6310E241EEFE93F00A91E0A /* FYPopoutViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6310E231EEFE93F00A91E0A /* FYPopoutViewTests.m */; };
 		A6310E2F1EEFE93F00A91E0A /* FYPopoutViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6310E2E1EEFE93F00A91E0A /* FYPopoutViewUITests.m */; };
+		A6310E401EEFE99500A91E0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6310E3D1EEFE99500A91E0A /* AppDelegate.m */; };
+		A6310E411EEFE99500A91E0A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6310E3F1EEFE99500A91E0A /* ViewController.m */; };
+		A6310E491EEFE99E00A91E0A /* correct.png in Resources */ = {isa = PBXBuildFile; fileRef = A6310E431EEFE99E00A91E0A /* correct.png */; };
+		A6310E4A1EEFE99E00A91E0A /* PopView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6310E451EEFE99E00A91E0A /* PopView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +38,6 @@
 /* Begin PBXFileReference section */
 		A6310E061EEFE93F00A91E0A /* FYPopoutView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FYPopoutView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6310E0A1EEFE93F00A91E0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A6310E0C1EEFE93F00A91E0A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		A6310E0D1EEFE93F00A91E0A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A6310E0F1EEFE93F00A91E0A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A6310E101EEFE93F00A91E0A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A6310E131EEFE93F00A91E0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A6310E151EEFE93F00A91E0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6310E181EEFE93F00A91E0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6310E1A1EEFE93F00A91E0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +47,13 @@
 		A6310E2A1EEFE93F00A91E0A /* FYPopoutViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FYPopoutViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6310E2E1EEFE93F00A91E0A /* FYPopoutViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYPopoutViewUITests.m; sourceTree = "<group>"; };
 		A6310E301EEFE93F00A91E0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6310E3C1EEFE99500A91E0A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A6310E3D1EEFE99500A91E0A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A6310E3E1EEFE99500A91E0A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A6310E3F1EEFE99500A91E0A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A6310E431EEFE99E00A91E0A /* correct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = correct.png; sourceTree = "<group>"; };
+		A6310E441EEFE99E00A91E0A /* PopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopView.h; sourceTree = "<group>"; };
+		A6310E451EEFE99E00A91E0A /* PopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +104,11 @@
 		A6310E081EEFE93F00A91E0A /* FYPopoutView */ = {
 			isa = PBXGroup;
 			children = (
-				A6310E0C1EEFE93F00A91E0A /* AppDelegate.h */,
-				A6310E0D1EEFE93F00A91E0A /* AppDelegate.m */,
-				A6310E0F1EEFE93F00A91E0A /* ViewController.h */,
-				A6310E101EEFE93F00A91E0A /* ViewController.m */,
-				A6310E121EEFE93F00A91E0A /* Main.storyboard */,
+				A6310E421EEFE99E00A91E0A /* FYPopView */,
+				A6310E3C1EEFE99500A91E0A /* AppDelegate.h */,
+				A6310E3D1EEFE99500A91E0A /* AppDelegate.m */,
+				A6310E3E1EEFE99500A91E0A /* ViewController.h */,
+				A6310E3F1EEFE99500A91E0A /* ViewController.m */,
 				A6310E151EEFE93F00A91E0A /* Assets.xcassets */,
 				A6310E171EEFE93F00A91E0A /* LaunchScreen.storyboard */,
 				A6310E1A1EEFE93F00A91E0A /* Info.plist */,
@@ -138,6 +141,16 @@
 				A6310E301EEFE93F00A91E0A /* Info.plist */,
 			);
 			path = FYPopoutViewUITests;
+			sourceTree = "<group>";
+		};
+		A6310E421EEFE99E00A91E0A /* FYPopView */ = {
+			isa = PBXGroup;
+			children = (
+				A6310E431EEFE99E00A91E0A /* correct.png */,
+				A6310E441EEFE99E00A91E0A /* PopView.h */,
+				A6310E451EEFE99E00A91E0A /* PopView.m */,
+			);
+			path = FYPopView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,7 +261,7 @@
 			files = (
 				A6310E191EEFE93F00A91E0A /* LaunchScreen.storyboard in Resources */,
 				A6310E161EEFE93F00A91E0A /* Assets.xcassets in Resources */,
-				A6310E141EEFE93F00A91E0A /* Main.storyboard in Resources */,
+				A6310E491EEFE99E00A91E0A /* correct.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +286,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6310E111EEFE93F00A91E0A /* ViewController.m in Sources */,
-				A6310E0E1EEFE93F00A91E0A /* AppDelegate.m in Sources */,
+				A6310E411EEFE99500A91E0A /* ViewController.m in Sources */,
+				A6310E401EEFE99500A91E0A /* AppDelegate.m in Sources */,
+				A6310E4A1EEFE99E00A91E0A /* PopView.m in Sources */,
 				A6310E0B1EEFE93F00A91E0A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,14 +325,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A6310E121EEFE93F00A91E0A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A6310E131EEFE93F00A91E0A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A6310E171EEFE93F00A91E0A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
